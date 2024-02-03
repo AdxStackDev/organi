@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\HeaderController;
+use App\Http\Livewire\Contacts;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,4 +22,5 @@ Route::get('/', function () {
 
 //contact page
 Route::get('/contact', [HeaderController::class, 'contact'])->name('contact');
+// Route::get('/contact', Contacts::class)->name('contact');
 Route::get('/home', [HeaderController::class, 'home'])->name('home');
