@@ -100,6 +100,10 @@
         $('.hero__categories ul').slideToggle(400);
     });
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d9613e1 (added search module)
     /*--------------------------
         Latest Product Slider
     ----------------------------*/

@@ -4,6 +4,10 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\HeaderController;
 use App\Http\Livewire\Contacts;
+<<<<<<< HEAD
+=======
+use App\Http\Livewire\Searchall;
+>>>>>>> d9613e1 (added search module)
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +28,8 @@ Route::get('/', function () {
 Route::get('/contact', [HeaderController::class, 'contact'])->name('contact');
 // Route::get('/contact', Contacts::class)->name('contact');
 Route::get('/home', [HeaderController::class, 'home'])->name('home');
+<<<<<<< HEAD
+=======
+// search
+Route::get('/search-product', Searchall::class)->name('search');
+>>>>>>> d9613e1 (added search module)

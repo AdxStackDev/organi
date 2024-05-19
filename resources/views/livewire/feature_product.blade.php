@@ -22,7 +22,10 @@
                 <div class="featured__item__pic set-bg" data-setbg="img/featured/{{ $product->name }}">
                     <ul class="featured__item__pic__hover">
                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
+<<<<<<< HEAD
                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+=======
+>>>>>>> d9613e1 (added search module)
                         <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
                     </ul>
                 </div>

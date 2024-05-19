@@ -26,6 +26,7 @@
                 <div class="col-lg-9">
                     <div class="hero__search">
                         <div class="hero__search__form">
+<<<<<<< HEAD
                             <form action="#">
                                 <div class="hero__search__categories">
                                     All Categories
@@ -34,6 +35,13 @@
                                 <input type="text" placeholder="What do yo u need?">
                                 <button type="submit" class="site-btn">SEARCH</button>
                             </form>
+=======
+                        <form action="{{ route('search') }}" method="get">
+                            <input type="text" name="query" placeholder="What do you need?" />
+                            <button type="submit" class="site-btn">SEARCH</button>
+                        </form>
+
+>>>>>>> d9613e1 (added search module)
                         </div>
                         <div class="hero__search__phone">
                             <div class="hero__search__phone__icon">

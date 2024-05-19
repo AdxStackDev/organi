@@ -1,5 +1,11 @@
 @include('layout.header')
 @include('layout.menu')
+<<<<<<< HEAD
+=======
+
+<livewire:searchall />
+
+>>>>>>> d9613e1 (added search module)
     <!-- Categories Section Begin -->
     <section class="categories">
         <div class="container">
@@ -41,6 +47,7 @@
     </section>
     <!-- Featured Section End -->
 
+<<<<<<< HEAD
     <!-- Banner Begin -->
     <!-- <div class="banner">
         <div class="container">
@@ -59,6 +66,9 @@
         </div>
     </div> -->
     <!-- Banner End -->
+=======
+
+>>>>>>> d9613e1 (added search module)
 
     <!-- Latest Product Section Begin -->
     <section class="latest-product spad">
@@ -325,4 +335,8 @@
     </section>
     <!-- Blog Section End -->
 
+<<<<<<< HEAD
 @include('layout.footer')
+=======
+@include('layout.footer')
+>>>>>>> d9613e1 (added search module)
